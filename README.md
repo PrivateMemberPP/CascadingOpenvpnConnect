@@ -16,6 +16,6 @@ sudo openvpn --config eu.fr1.cdn.internetz.me.ovpn --script-security 2 --route r
 sudo openvpn --config eu.fr4.cdn.internetz.me.ovpn --script-security 2 --route remote_host --persist-tun --up updown.sh --down updown.sh --route-noexec --setenv hopid 2 --setenv prevgw 10.9.1.1
 
 3
-sudo openvpn --config am.us4.cdn.internetz.me.ovpn --script-security 2 --route remote_host --persist-tun --up updown.sh --down updown.sh --route-noexec --setenv hopid 3 --setenv prevgw 10.9
+sudo openvpn --config am.us4.cdn.internetz.me.ovpn --script-security 2 --route remote_host --persist-tun --up updown.sh --down updown.sh --route-noexec --setenv hopid 3 --setenv prevgw 10.9.4.1
 
 
