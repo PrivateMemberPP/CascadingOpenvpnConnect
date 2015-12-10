@@ -5,7 +5,7 @@ Scripts that allow cascading vpn connections ( You -> Server A -> Server B -> Se
 
 This script called updown.sh can be used to create a cascading connection to multiple vpn servers
 You basically start a vpn connection to multiple servers and this script will create routes so it will create a 
-proxy chain for you
+vpn chain for you
 
 
 #Example:
